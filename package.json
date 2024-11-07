@@ -1,10 +1,10 @@
 {
-    "homepage": "https://itsjae.github.io/InnoJation/",
+    "homepage": "https://itsjae.github.io/",
     "scripts": {
         "start": "parcel index.html --open",
+        "build": "parcel build index.html",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-        "build": "parcel build index.html"
+        "deploy": "gh-pages -d build"
     },
     "name": "vanilla",
     "version": "1.0.0",
