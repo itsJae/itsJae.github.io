@@ -1,2 +1,1 @@
-# InnoJation
-My portfolio website
+# itsJae.github.io
