@@ -9,15 +9,12 @@
         background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     }
     #restricted-page {
-        display: block;
-    }
-
-    #restricted-text-wrap {
+        display: block !important;
     }
 
     #restricted-text-wrap h3 {
         font-size: 5rem;
-        padding-top: 5rem;
+        padding: 5rem 20rem;
     }
 
     #restricted-content-wrap {
@@ -33,13 +30,13 @@
 }
 
 /* Mobile (horizontal) & Small tablets */
-@media (min-width: 576px) and (max-width: 767px) {
-}
+/* @media (min-width: 576px) and (max-width: 767px) {
+} */
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 1023px) {
-}
+/* @media (min-width: 768px) and (max-width: 1023px) {
+} */
 
 /* Laptop */
-@media (min-width: 1024px) and (max-width: 1199px) {
-}
+/* @media (min-width: 1024px) and (max-width: 1199px) {
+} */

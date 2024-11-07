@@ -1,6 +1,6 @@
 @charset "utf-8";
-@import '/css/reset.css';
-@import '/css/mediaquery.css';
+@import '/src/css/reset.css';
+@import '/src/css/mediaquery.css';
 
 :root {
     --black: #0d0d0d;
@@ -235,7 +235,7 @@ progress::-moz-progress-bar {
 }
 
 #restricted-page {
-    /* display: none; */
+    display: none;
 }
 
 #entire-wrap {
@@ -1370,6 +1370,7 @@ progress::-moz-progress-bar {
     max-width: 100rem;
     flex-wrap: wrap;
     gap: 8rem;
+    justify-content: center;
 }
 
 .ws-component {
