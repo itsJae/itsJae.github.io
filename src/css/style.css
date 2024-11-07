@@ -1455,7 +1455,7 @@ progress::-moz-progress-bar {
     height: 20rem;
 }
 
-.ws-link-btn a {
+.ws-link-btn div {
     position: relative;
     z-index: 1;
 }
