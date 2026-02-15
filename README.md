@@ -1,6 +1,6 @@
 # INNOJATION 
 Welcome to Innojation!
-It is my portfolio website that showcases projects and stacks.
+It is my website that showcases my journey as a developer.
 It's basically a hub that connects all my other workspaces, such as leetcode, programmers, github, hashnode, etc.
 Moreover, the website tells you who I am and my background as a software developer.
 
