@@ -13,3 +13,7 @@ September 01, 2024 ~ November 08, 2024
 + HTML5
 + CSS3
 + IDE: Goorm IDE
+
+# Walkthrough
++ https://github.com/user-attachments/assets/e28939f6-b935-4dbb-af6c-c240febe0b3b
+
