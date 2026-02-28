@@ -8,7 +8,11 @@ Moreover, the website tells you who I am and my background as a software develop
 # Walkthrough Video
 + https://github.com/user-attachments/assets/55be48ed-f573-458d-9673-b74605faf546
 
-Link: <https://itsjae.github.io/>
+
+# Link
++ <https://itsjae.github.io/>
+
+  
 # Period of development
 September 01, 2024 ~ November 08, 2024
 # Developed with
