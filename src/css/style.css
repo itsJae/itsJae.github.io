@@ -538,6 +538,33 @@ progress::-moz-progress-bar {
         811px 347px #fff, 924px 1827px #fff, 945px 217px #fff, 1735px 1228px #fff, 379px 1890px #fff, 79px 761px #fff,
         825px 1837px #fff, 1980px 1558px #fff, 1308px 1573px #fff, 1488px 1726px #fff, 382px 1208px #fff,
         522px 595px #fff, 1277px 1898px #fff, 354px 552px #fff, 161px 1784px #fff, 614px 251px #fff, 526px 1576px #fff,
+
+/* Timeline images: make them fill available width responsively */
+.timeline-images {
+    width: 100%;
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.timeline-images img {
+    flex: 0 0 auto;
+    width: auto;
+    height: 14rem;
+    max-height: 14rem;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .timeline-images img {
+        height: 10rem;
+        max-height: 10rem;
+    }
+}
         17px 212px #fff, 179px 996px #fff, 467px 1208px #fff, 1944px 1838px #fff, 1140px 1093px #fff, 858px 1007px #fff,
         200px 1064px #fff, 423px 1964px #fff, 1945px 439px #fff, 1377px 689px #fff, 1120px 1437px #fff,
         1876px 668px #fff, 907px 1324px #fff, 343px 1976px #fff, 1816px 1501px #fff, 1849px 177px #fff, 647px 91px #fff,
@@ -1869,7 +1896,7 @@ progress::-moz-progress-bar {
     background-color: var(--base-bg-color);
     border-top: 1px solid var(--divider);
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 #footer-main {
@@ -1956,7 +1983,7 @@ progress::-moz-progress-bar {
 }
 
 .footer-category-wrap p {
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     font-weight: 700;
 }
 
@@ -1967,7 +1994,7 @@ progress::-moz-progress-bar {
 }
 
 .footer-lists a {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: normal;
     color: var(--light_gray);
     padding-left: 0.5rem;
@@ -2001,13 +2028,13 @@ progress::-moz-progress-bar {
 }
 
 #author-contact-wrap > h3 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: 700;
     padding-bottom: 1.5rem;
 }
 
 #author-contact-wrap p {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: normal;
     color: var(--light_gray);
 }
